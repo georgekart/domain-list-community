@@ -15,7 +15,7 @@ jobs:
         
       - name: Download new files
         run: | 
-          sudo wget https://raw.githubusercontent.com/georgekart/RuBannedList/main/category-banned-ru -o /category-banned-ru
+          sudo wget https://raw.githubusercontent.com/georgekart/RuBannedList/main/category-banned-ru -o /data/category-banned-ru
         
       - name: commit files
         run: |
@@ -28,4 +28,4 @@ jobs:
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          branch: master
