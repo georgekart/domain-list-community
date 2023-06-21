@@ -3,9 +3,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 22 * * *"
-  push:
-    branches:
-      - master
 jobs:
   update:
     runs-on: ubuntu-latest
