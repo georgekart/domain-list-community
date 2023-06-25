@@ -13,7 +13,7 @@ jobs:
       - name: Download new files
         run: | 
           sudo wget https://raw.githubusercontent.com/georgekart/RuBannedList/main/category-banned-ru
-          sudo mv category-banned-ru /data/category-banned-ru
+          sudo mv category-banned-ru ~/data
           
       - name: commit files
         run: |
