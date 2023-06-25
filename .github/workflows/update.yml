@@ -12,7 +12,7 @@ jobs:
         
       - name: Download new files
         run: | 
-          sudo curl https://raw.githubusercontent.com/georgekart/RuBannedList/main/category-banned-ru -o /data/category-banned-ru
+          sudo wget https://raw.githubusercontent.com/georgekart/RuBannedList/main/category-banned-ru -o /data/category-banned-ru
         
       - name: commit files
         run: |
