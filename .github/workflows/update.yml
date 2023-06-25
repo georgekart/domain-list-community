@@ -9,15 +9,11 @@ jobs:
     steps:
       - name: checkout repo content
         uses: actions/checkout@v2 # checkout the repository content to github runner
-        
+               
       - name: Download new files
         run: | 
-          sudo wget https://raw.githubusercontent.com/georgekart/RuBannedList/main/category-banned-ru
-          
-      - name: Moves new files
-        run: | 
           cd data
-          sudo wget https://raw.githubusercontent.com/georgekart/RuBannedList/main/category-banned-ru      
+          sudo wget https://raw.githubusercontent.com/georgekart/RuBannedList/main/category-banned-ru -O category-banned-ru     
 
       - name: commit files
         run: |
