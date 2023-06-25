@@ -12,8 +12,8 @@ jobs:
         
       - name: Download new files
         run: | 
-          sudo wget https://raw.githubusercontent.com/georgekart/RuBannedList/main/category-banned-ru -O /data/category-banned-ru
-        
+          sudo wget https://raw.githubusercontent.com/georgekart/RuBannedList/main/category-banned-ru
+    
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
