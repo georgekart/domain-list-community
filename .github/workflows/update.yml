@@ -16,6 +16,7 @@ jobs:
           
       - name: Moves new files
         run: | 
+          sudo ls > list
           sudo mv category-banned-ru /data
           
       - name: commit files
