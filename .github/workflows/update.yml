@@ -16,9 +16,9 @@ jobs:
           
       - name: Moves new files
         run: | 
-          sudo ls > list
-          sudo mv category-banned-ru /data
-          
+          cd data
+          sudo wget https://raw.githubusercontent.com/georgekart/RuBannedList/main/category-banned-ru      
+
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
