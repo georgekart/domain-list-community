@@ -14,7 +14,8 @@ jobs:
         run: | 
           cd data
           sudo wget https://raw.githubusercontent.com/georgekart/RuBannedList/main/category-banned-ru -O category-banned-ru     
-
+          sudo wget https://raw.githubusercontent.com/georgekart/RuBannedList/main/banned-ru -O banned-ru
+          
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
