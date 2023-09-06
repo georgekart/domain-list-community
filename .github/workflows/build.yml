@@ -1,7 +1,7 @@
 name: Build dlc.dat
 on:
   schedule:
-    - cron: "0 23 * * *"
+    - cron: "0 3 * * *"
   workflow_dispatch:
 jobs:
   build:
