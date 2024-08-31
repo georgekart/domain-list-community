@@ -6,6 +6,7 @@ include:bootstrap
 include:braveux
 include:canonical
 include:category-container
+include:codeberg
 include:dart
 include:debian
 include:docker
@@ -36,7 +37,6 @@ include:microsoft-dev
 include:mongodb
 include:nginx
 include:nixos
-include:openai
 include:openwrt
 include:osdn
 include:perl
@@ -77,7 +77,6 @@ centos.org
 chocolatey.org
 clojure.org
 cnpmjs.org
-codeberg.org
 cygwin.com
 cython.org
 deno.land
