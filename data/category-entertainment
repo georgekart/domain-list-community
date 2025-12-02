@@ -3,6 +3,7 @@
 include:category-games-!cn
 include:category-novel
 
+include:7tv
 include:abema
 include:amc
 include:anime
@@ -36,12 +37,14 @@ include:kktv
 include:lastfm
 include:litv
 include:manhuagui
+include:metacritic
 include:mubi
 include:mudvod
 include:mytvsuper
 include:netflix
 include:niconico
 include:now
+include:okko
 include:olevod
 include:pbs
 include:pixiv
@@ -49,6 +52,7 @@ include:plutotv
 include:pocketcasts
 include:primevideo
 include:roku
+include:rutube
 include:showtimeanytime
 include:sling
 include:sonypictures
@@ -80,7 +84,6 @@ fireside.fm
 internationalsaimoe.com
 joox.com
 linetv.tw
-litv.tv
 megaphone.fm
 mikanani.me
 moov.hk
@@ -89,7 +92,6 @@ omobi.cc
 oranum.com
 overcast.fm
 syosetu.com
-thetvdb.com
 weverse.io
 yande.re
 
