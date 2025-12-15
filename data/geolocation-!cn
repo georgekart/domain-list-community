@@ -31,6 +31,8 @@ include:typenetwork
 include:typography
 include:webtype
 
+bunka.go.jp
+
 # Automobile
 include:bmw
 include:bridgestone
@@ -106,6 +108,7 @@ include:ted
 include:udacity
 include:udemy
 include:w3schools
+include:zotero
 
 chemequations.com # 线上化学方程式！
 
@@ -211,7 +214,6 @@ include:mapbox
 include:mega
 include:netlify
 include:notion
-include:ok
 include:okaapps
 include:opencollective
 include:organicmaps
