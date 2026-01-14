@@ -1,8 +1,15 @@
 name: Build dlc.dat
 on:
-  schedule:
-    - cron: "0 3 * * *"
-  workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - "**/README.md"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   build:
     name: Build
