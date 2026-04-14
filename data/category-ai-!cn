@@ -4,6 +4,7 @@ include:cerebras
 include:comfy
 include:cursor
 include:elevenlabs
+include:envato
 include:github-copilot
 include:google-deepmind
 include:groq
@@ -46,3 +47,4 @@ mistral.ai
 openart.ai
 openclaw.ai
 openrouter.ai
+spicywriter.com
