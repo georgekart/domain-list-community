@@ -12,6 +12,7 @@ aliyun.com
 aliyuncdn.com
 aliyuncdn.net
 aliyunfile.com
+aliyunidaas.com
 aliyunpds.com
 cdngslb.com
 fcapp.run
@@ -40,6 +41,11 @@ kunlunwe.com
 mxhichina.com
 myalicdn.com
 
+#865 #882 aliyuncs.com
+ap-southeast-1.aliyuncs.com @!cn
+cn-hangzhou.aliyuncs.com
+cn-shanghai.aliyuncs.com
+log-global.aliyuncs.com
 oss-ap-northeast-1.aliyuncs.com @!cn
 oss-ap-northeast-2.aliyuncs.com @!cn
 oss-ap-south-1.aliyuncs.com @!cn
